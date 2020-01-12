@@ -60,7 +60,7 @@ After data preprocessing, I have also conducted exploratory data analysis (EDA) 
 - Random Forest
 - Extra Tree
 
-#Conclusions and Recommendations
+# Conclusions and Recommendations
 
 Random Forest Model, the best performing model, was able to predict 54% of the variation in price with an RMSE of 0.48. Such limited explanatory power of our model could be due to omitted variable bias (e.g. review score sentimental analysis) and the need to construct model with deep learning. 
 
