@@ -62,7 +62,7 @@ After data preprocessing, I have also conducted exploratory data analysis (EDA) 
 
 # Conclusions and Recommendations
 
-Random Forest Model, our best performing model, was able to predict 54% of the variation in price with an RMSE of 0.48. Such limited explanatory power of our model could be due to omitted variable bias (e.g. review score sentimental analysis) and the need to tune machine learning model hyperparameter.
+Random Forest Model, our best performing model, was able to predict 54% of the variation in price with an RMSE of 0.48. Such limited explanatory power of our model could be due to omitted variable bias (e.g. review score sentimental analysis) and the need to tune hyperparameters of Machine Learning algorithms.
 
 From the analysis of feature importances, we can see that there are some statisfically significant features affecting airbnb pricing:
 
