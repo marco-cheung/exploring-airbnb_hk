@@ -30,14 +30,23 @@ After data preprocessing, I have also conducted exploratory data analysis (EDA) 
 
 # Workflow
 [This notebook](https://github.com/marco-cheung/exploring-airbnb_hk/blob/master/Predicting%20Airbnb%20prices%20with%20machine%20learning%20models.ipynb) covers:
+
 (1) Data cleansing
+
 (2) Exploring nearby popular venues per Neighborhood (District) in Hong Kong using Foursquare API
+
 (3) Measuring walkability score per listing within the neighbourhood
+
 (4) Exploratory Data Analysis (EDA)
+
 (5) Handling multi-collinearity problems
+
 (6) Feature Selection before modeling
+
 (7) Modeling (eight regression models in total)
+
 (8) Comparing model performance
+
 (9) Selecting best model
 
 
