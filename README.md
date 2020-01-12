@@ -26,3 +26,43 @@ After data preprocessing, I have also conducted exploratory data analysis (EDA) 
      ```Tool: Foursquare Venue Explore API```
     
     [Search for nearby popular venues per neighbourhood/district in Hong Kong](https://developer.foursquare.com/docs/api/venues/explore)
+
+
+# Workflow
+[This notebook](https://github.com/marco-cheung/exploring-airbnb_hk/blob/master/Predicting%20Airbnb%20prices%20with%20machine%20learning%20models.ipynb) covers:
+(1) Data cleansing
+(2) Exploring nearby popular venues per Neighborhood (District) in Hong Kong using Foursquare API
+(3) Measuring walkability score per listing within the neighbourhood
+(4) Exploratory Data Analysis (EDA)
+(5) Handling multi-collinearity problems
+(6) Feature Selection before modeling
+(7) Modeling (eight regression models in total)
+(8) Comparing model performance
+(9) Selecting best model
+
+
+# Regression Models used for comparison:
+- Ordinary Linear Regression (our base model)
+- Lasso
+- Ridge
+- KNN
+- Decision Tree
+- Gradient Boost
+- Random Forest
+- Extra Tree
+
+#Conclusions and Recommendations
+
+Random Forest Model, the best performing model, was able to predict 54% of the variation in price with an RMSE of 0.48. Such limited explanatory power of our model could be due to omitted variable bias (e.g. review score sentimental analysis) and the need to construct model with deep learning. 
+
+From the analysis of feature importances, we can see that there are some statisfically significant features affecting airbnb pricing:
+
+- Room Type (Entire Home/Apartment)
+- Number of accommodates, host profile (number of listings and host duration on website)
+- Location (e.g. walkability to the nearest popular venues and proximity to MTR station)
+- Number of bathrooms
+- Days available to be booked in the next 30 days 
+- Number of reviews of the apartment
+- Minimum nights required for booking
+
+We can do better
