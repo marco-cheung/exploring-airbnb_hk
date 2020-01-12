@@ -64,5 +64,3 @@ From the analysis of feature importances, we can see that there are some statisf
 - Days available to be booked in the next 30 days 
 - Number of reviews of the apartment
 - Minimum nights required for booking
-
-We can do better
